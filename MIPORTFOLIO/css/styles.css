@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    background-image: url(/MICV-main/img/background.avif);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    
+    .wrap{
+    width: 800px;
+    max-width: 90%;
+    margin: 30px auto;
+    }
+    
+    ul.tabs{
+    width: 100%;
+    background: #363636;
+    list-style: none;
+    display: flex;
+    }
+    .img {  
+    background-image: url(/MICV-main/img/avatar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25%;
+     margin: 0;
+    }
+    ul.tabs li{
+    flex: 1;
+    text-align: center;
+    }
+    
+    ul.tabs li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+    white-space: nowrap;
+    }
+    
+    .active{
+    background: #0984CC;
+    }
+    
+    ul.tabs li a .tab-text{
+    margin-left: 8px;
+    }
+    
+    .secciones{
+    width: 100%;
+    background: #fff;
+    }
+    
+    .secciones article{
+    padding: 60px 50px;
+    }
+
+    .secciones article ul{
+        padding: 10px 30px;
+        }
+    
+
+    .secciones article p{
+    text-align: justify;
+    }
+    
+    
+    @media screen and (max-width: 700px){
+    ul.tabs li{
+    width: none;
+    flex-basis: 0;
+    flex-grow: 1;
+    }
+    }
+    .colorfuente {
+     color: #0f5966;
+    }
+    
+    @media screen and (max-width: 450px){
+    ul.tabs li a{
+    padding: 15px 0px;
+    }
+    
+    ul.tabs li a .tab-text{
+    display: none;
+    }
+}
+    .lista {
+    padding-left: 70px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+    }
+    
+    form label {
+        margin-bottom: 10px;
+    }
+    
+    button {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-group label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: inherit;
+    }
+    
+    button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #333;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0f5966;
+    }
