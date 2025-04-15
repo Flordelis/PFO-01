@@ -2,18 +2,21 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
  crossorigin="anonymous" referrerpolicy="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/MICV-main/css/styles.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="main.js"></script>
 <link rel="shortcut icon" href="C:/MIPROYECTO/blanco.webp">
-<title>MI PORTAFOLIO</title>
+<link rel="stylesheet" href="/MIPORTFOLIO/css/styles.css">
+<title>MI PORTAFOLIO</title> 
+<link rel="icon" type="image.com" href="/MIPORTFOLIO/img/Justicon-Free-Simple-Line-Development-Interface-Computer-Photo-Gear-Browser.512.png">
 </head>
 <body>
 <div class="wrap">
+<!-- nav donde fueron agregados iconos para mas atractivo visual. -->
 <ul class="tabs">
 <li><a href="#tab1"><i class="fa-solid fa-address-card"></i><span class="tab-text">Sobre mí</span></a></li>
 <li><a href="#tab2"><i class="fa-solid fa-book"></i><span class="tab-text">Formacíon</span></a></li>
@@ -22,29 +25,21 @@
 </ul>
 <div class="secciones">
 <article id="tab1">
-<section class="img"></section> <br>
+<img src="/MIPORTFOLIO/img/avatar.png" alt="Mi avatar" class="avatar"><br>
 <h2 class="colorfuente">PRESENTACIÓN</h2>
 <p> Hola, mi nombre es Florencia Lovera, vivo en Buenos Aires, Argentina. <br>
  Soy estudiante de la tecnicatura en Desarrollo de software y actualmente me encuentro realiando mi portfolio, donde detallo mi informacion personal y mi experiencia. <br>
  Lo que mas me gusta de la programación es dar soluciones a problemas 
- que aparentan ser complicados. <br> <br> <br></p>
- <h4 class="colorfuente">HABILIDADES BLANDAS</h4>
- <ul class="lista">
- <li>Autodidacta.</li>
- <li>Proactiva.</li>
- <li>Trabajo en equipo.</li>
- <li>Capacidad de liderazgo.</li>
- <li>Buena gestión de plazos de los proyectos.</li>
- <li>Aprendizaje fluido.</li>
- </ul> <br><br>
- <h4 class="colorfuente">TECNOLOGIAS MANEJADAS</h4>
- <ul class="lista">
- <li>HTML</li>
- <li>CSS</li>
- <li>JAVASCRIPT</li>
- <li>NODE.JS</li>
- <li>C#</li>
- </ul> <br><br>
+ que aparentan ser complicados. </p> <br><br><br>
+ <!-- conjunto de listas con la información requerida -->
+ <div class="imagenes-flex">
+    <div class="imagen-hover">
+      <img src="/MIPORTFOLIO/img/01056e16-f1ff-4cf1-9edc-3bfb4835b8ef (1).png" alt="Habilidades blandas">
+    </div>
+    <div class="imagen-hover">
+      <img src="/MIPORTFOLIO/img/01056e16-f1ff-4cf1-9edc-3bfb4835b8ef (2).png" alt="Tecnologías manejadas">
+    </div>
+  </div> <br><br>
  <h4 class="colorfuente">HERRAMIENTAS ADICIONALES</h4>
  <ul class="lista">
  <li>Manejo de paquete office.</li>
@@ -102,14 +97,14 @@
     <button type="submit">Enviar</button>
 </form>
 </article>
-<article id="tab5">
+<footer>
  <h4 class="colorfuente">PARA COMUNICARTE PERSONALMENTE, TAMBIÉN PUEDES HACERLO DESDE LOS SIGUIENTES CANALES:</h4> <br> <br>
  <div class="icon">
- <a href ="https://m.facebook.com"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logo_de_Facebook.png" width="80px" height="80px" alt="icono de facebook"></a>
- <a href="https://twitter.com"> <img src= "https://e7.pngegg.com/pngimages/763/464/png-clipart-twitter-logo-icon-logo-twitter-logo-marine-mammal-responsive-web-design-thumbnail.png" width= "80px" height="80px"  alt="icono de instagram" ></a>
- <a href="https://www.instagram.com"><img src="https://png.pngitem.com/pimgs/s/1-14552_instagram-icon-png-128-icono-de-instagram-png.png" width="80px" height="80px" alt="icono de instagram"></a>
- <a href="https://github.com/"> <img src="https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png" width="80px" height="80px" alt="icono github"></a>
- <a href="https://www.whatsapp.com/?lang=es"><img src="https://cdn-icons-png.flaticon.com/512/124/124034.png?w=360" width="80px" height="80px" alt="icono whatsApp"></a>
-</article>
+ <a href ="https://m.facebook.com"> <img src="/MIPORTFOLIO/img/facebook.png" width="80px" height="80px" alt="icono de facebook"></a>
+ <a href="https://twitter.com"> <img src= "/MIPORTFOLIO/img/gorjeo.png" width= "80px" height="80px"  alt="icono de instagram" ></a>
+ <a href="https://www.instagram.com"><img src="/MIPORTFOLIO/img/instagram.png" width="80px" height="80px" alt="icono de instagram"></a>
+ <a href="https://github.com/"> <img src="/MIPORTFOLIO/img/signo-de-github.png" width="80px" height="80px" alt="icono github"></a>
+ <a href="https://www.whatsapp.com/?lang=es"><img src="/MIPORTFOLIO/img/whatsapp.png" width="80px" height="80px" alt="icono whatsApp"></a>
+ </footer>
 </body>
 </html>
