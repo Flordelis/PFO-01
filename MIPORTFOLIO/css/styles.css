@@ -6,7 +6,7 @@
     
     /* Aplicación de la fuente y el background correspondiente, desde css. */
     body{
-    background-image: url(/MIPORTFOLIO/img/background.avif);
+    background-image: url(../img/background.avif);
     font-family: 'Barlow', sans-serif;
     }
 
